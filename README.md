@@ -44,8 +44,8 @@ USB mapping is done via USBMap.kext injection (generated with the
 
 This is my current 15 port mapping:
 
-# | Device | Type | Postion
-- | ------ | ---- | -------
+\# | Device | Type | Postion
+-- | ------ | ---- | -------
 1 | HS01 | USB 2.0 | back middle right (red port)
 2 | HS02 | USB 2.0 | back middle left usb-c
 3 | HS03 | USB 2.0 | back top left
@@ -57,8 +57,8 @@ This is my current 15 port mapping:
 9 | HS10 | Internal Header (USB 2.0) | used by BCM94360CD Bluetooth adapter 
 10 | SS01 | USB 3.0 | back middle right
 11 | SS02 | USB 3.0 | back middle left usb-c
- x | ~~SS03~~ | ~~USB 3.0~~ | ~~back top left~~
- x | ~~SS04~~ | ~~USB 3.0~~ | ~~back top right~~
+x | ~~SS03~~ | ~~USB 3.0~~ | ~~back top left~~
+x | ~~SS04~~ | ~~USB 3.0~~ | ~~back top right~~
 12 | SS05 | USB 3.0 | back bottom left
 13 | SS06 | USB 3.0 | back bottom right
 14 | SS07 | USB 3.0 | case front right (via internal header)
@@ -66,7 +66,8 @@ This is my current 15 port mapping:
 x | ~~SS10~~ | ~~Internal Header (USB 3.0)~~ | ~~internal bluetooth~~
 
 ![IO backplate](img/mainboard_io_backplate.png)
-Gigabyte Z390 M Gaming IO Backplate
+
+_Gigabyte Z390 M Gaming IO Backplate_
 
 
 ### iGPU
