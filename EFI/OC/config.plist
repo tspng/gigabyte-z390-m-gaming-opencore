@@ -823,17 +823,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C029313034NKGQG1M</string>
+			<string>__GENERATE_YOUR_OWN__</string>
 			<key>ROM</key>
-			<data>tC6ZYU3h</data>
+			<data>__GENERATE_YOUR_OWN__</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Z5HYEJWDW</string>
+			<string>__GENERATE_YOUR_OWN__</string>
 			<key>SystemUUID</key>
-			<string>0861B5EC-8D12-4975-9410-E40388359DB3</string>
+			<string>__GENERATE_YOUR_OWN__</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
