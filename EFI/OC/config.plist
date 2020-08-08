@@ -178,6 +178,8 @@
 			<true/>
 			<key>ProvideCustomSlide</key>
 			<true/>
+			<key>ProvideMaxSlide</key>
+			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>SetupVirtualMap</key>
@@ -541,6 +543,34 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string>_vstart</string>
+				<key>Comment</key>
+				<string>Print K and dead loop</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>sUtmuv0D7KggdPtmuvgDiMjusQpmuv0D7KggdPtmuvgDiMju6/4=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -616,6 +646,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>SerialInit</key>
+			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -663,7 +695,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>UEFI Shell</string>
+				<string>Not signed for security reasons</string>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Enabled</key>
@@ -677,9 +709,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>VerifyMsrE2.efi</string>
+				<string>Check CFG Lock (MSR 0xE2 write protection) consistency across all cores</string>
 				<key>Name</key>
-				<string>VerifyMsrE2</string>
+				<string>Check CFG Lock</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Arguments</key>
@@ -691,9 +723,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Clean NVRAM and reboot</string>
+				<string>Reset NVRAM alternative bundled as a standalone tool</string>
 				<key>Name</key>
-				<string>Clean NVRAM</string>
+				<string>Reset NVRAM (alt)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Arguments</key>
@@ -791,17 +823,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>__GENERATE_YOUR_OWN__</string>
+			<string>C029313034NKGQG1M</string>
 			<key>ROM</key>
-			<data>__GENERATE_YOUR_OWN__</data>
+			<data>tC6ZYU3h</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac19,2</string>
 			<key>SystemSerialNumber</key>
-			<string>__GENERATE_YOUR_OWN__</string>
+			<string>C02Z5HYEJWDW</string>
 			<key>SystemUUID</key>
-			<string>__GENERATE_YOUR_OWN__</string>
+			<string>0861B5EC-8D12-4975-9410-E40388359DB3</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -895,6 +927,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -905,6 +939,8 @@
 			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleEvent</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
 			<false/>
