@@ -1,6 +1,6 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Catalina version 10.15.5
+Running macOS Catalina version `10.15.6`
 
 ![about this Mac](img/about_this_mac.png)
 
@@ -32,7 +32,7 @@ First load **optimized defaults**, then adjust the following settings:
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.1`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
@@ -81,7 +81,7 @@ iGPU works by enabling internal graphics in bios and then using framebuffer `0x3
 
 ### Sound
 
-Works with AppleALC.kext using `layout-id 20`.
+Works with AppleALC.kext using `layout-id 1`.
 
 
 ## Issues
