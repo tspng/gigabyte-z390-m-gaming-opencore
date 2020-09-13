@@ -30,6 +30,19 @@ First load **optimized defaults**, then adjust the following settings:
 5. Tweaker -> Extreme Memory Profile(X.M.P.): **Profile1**
 
 
+### Disable CFG-Lock in BIOS
+
+CFG-Lock setting in this bios (`F9g`) is at address `0x5C1`.
+Enter the modified _GRUB Shell_ from the OpenCore boot menu and
+run the following command to allow MSR 0xE2 to be written to:
+
+```
+setup_var 0x5C1 0x00
+```
+
+Test CFG-Lock setting with the OpenCore boot menu tool _Check CFG Lock_ (VerifyMsrE2.efi).
+
+
 ## OpenCore Installation Notes
 
 Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.1`.
