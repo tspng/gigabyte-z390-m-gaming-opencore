@@ -1,6 +1,6 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Catalina version `10.15.6`
+Running macOS Catalina version `10.15.7`
 
 ![about this Mac](img/about_this_mac.png)
 
@@ -45,7 +45,7 @@ Test CFG-Lock setting with the OpenCore boot menu tool _Check CFG Lock_ (VerifyM
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.1`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.3`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
