@@ -1,6 +1,6 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Catalina version `10.15.7`
+Running macOS Big Sur version `11.2`
 
 ![about this Mac](img/about_this_mac.png)
 
