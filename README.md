@@ -45,7 +45,7 @@ Test CFG-Lock setting with the OpenCore boot menu tool _Check CFG Lock_ (VerifyM
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.4`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.6`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
