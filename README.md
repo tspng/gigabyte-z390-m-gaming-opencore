@@ -99,6 +99,6 @@ Works with AppleALC.kext using `layout-id 1`.
 
 ## Issues
 
-- [ ] Wake from sleep via keyboard or mouse requires a second USB input to completely power on the hackintosh (for example to power on the display).
+- [x] Wake from sleep via keyboard or mouse requires a second USB input to completely power on the hackintosh (for example to power on the display).
 Check [Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html) from the OpenCore Post-Install docs.
 - [ ] Slow boot time
