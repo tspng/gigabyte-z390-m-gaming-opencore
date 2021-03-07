@@ -9,7 +9,7 @@ Running macOS Big Sur version `11.2`
 
 Component | Model | Comments
 --------- | ----- | --------
-Mainboard | Gigabyte Z390 M Gaming, rev. 1.0                        | running Bios F9g 
+Mainboard | Gigabyte Z390 M Gaming, rev. 1.0                        | running Bios F9m 
 CPU       | Intel i7-8700k                                          | UHD630 iGPU for compute 
 GPU       | Gigabyte RX VEGA 56 GAMING OC 8G                        | works oob
 SSD       | WD Black SN750 Gaming 1TB M.2 NVMe                      | works oob
@@ -19,7 +19,8 @@ Memory    | Corsair Vengeance LPX 32GB (2x16GB) 3200MHz             |
 
 ## BIOS
 
-Using the latest, official [F9g](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) bios from Gigabyte.
+Using the latest, official [F9m](https://www.gigabyte.com/Motherboard/Z390-M-GAMING-rev-10/support#support-dl-bios) bios from Gigabyte.
+This is the first bios version which lets you disable CFG-Lock.
 
 First load **optimized defaults**, then adjust the following settings:
 
@@ -28,24 +29,11 @@ First load **optimized defaults**, then adjust the following settings:
 3. Settings -> IO Port -> Above 4G Decoding: **Enabled**
 4. Settings -> IO Port -> USB Configuration -> XHCI Hand-off: **Enabled**
 5. Tweaker -> Extreme Memory Profile(X.M.P.): **Profile1**
-
-
-### Disable CFG-Lock in BIOS
-
-CFG-Lock setting in this bios (`F9g`) is at address `0x5C1`.
-Enter the modified _GRUB Shell_ from the OpenCore boot menu and
-run the following command to allow MSR 0xE2 to be written to:
-
-```
-setup_var 0x5C1 0x00
-```
-
-Test CFG-Lock setting with the OpenCore boot menu tool _Check CFG Lock_ (VerifyMsrE2.efi).
-
+6. 
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.6`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.7`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
@@ -101,4 +89,3 @@ Works with AppleALC.kext using `layout-id 1`.
 
 - [x] Wake from sleep via keyboard or mouse requires a second USB input to completely power on the hackintosh (for example to power on the display).
 Check [Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html) from the OpenCore Post-Install docs.
-- [ ] Slow boot time
