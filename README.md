@@ -1,6 +1,6 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Big Sur version `11.3`
+Running macOS Big Sur version `11.4`
 
 ![about this Mac](img/about_this_mac.png)
 
@@ -33,7 +33,7 @@ First load **optimized defaults**, then adjust the following settings:
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.6.9`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.7.0`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
