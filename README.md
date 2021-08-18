@@ -82,7 +82,7 @@ iGPU works by enabling internal graphics in bios and then using framebuffer `0x3
 
 ### Sound
 
-Works with AppleALC.kext using `layout-id 1`.
+Front and backside ports work with AppleALC.kext using `layout-id 20`.
 
 
 ## Issues
