@@ -1,6 +1,6 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Big Sur version `11.4`
+Running macOS Big Sur version `12.3.1`
 
 ![about this Mac](img/about_this_mac.png)
 
@@ -33,7 +33,7 @@ First load **optimized defaults**, then adjust the following settings:
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.7.5`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.7.9`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
@@ -47,19 +47,19 @@ This is my current 15 port mapping:
 
 \# | Device | Type | Postion
 -- | ------ | ---- | -------
-1 | HS01 | USB 2.0 | back middle right (red port)
-2 | HS02 | USB 2.0 | back middle left usb-c
-3 | HS03 | USB 2.0 | back top left
-4 | HS04 | USB 2.0 | back top right
-5 | HS05 | USB 2.0 | back bottom left
-6 | HS06 | USB 2.0 | back bottom right
-7 | HS07 | USB 2.0 | case front right (via internal header)
-8 | HS08 | USB 2.0 | case front left (via internal header)
-9 | HS10 | Internal Header (USB 2.0) | used by BCM94360CD Bluetooth adapter 
-10 | SS01 | USB 3.0 | back middle right
-11 | SS02 | USB 3.0 | back middle left usb-c
-x | ~~SS03~~ | ~~USB 3.0~~ | ~~back top left~~
-x | ~~SS04~~ | ~~USB 3.0~~ | ~~back top right~~
+x | ~~HS01~~ | ~~USB 2.0~~ | ~~back middle right (red port)~~
+x | ~~HS02~~ | ~~USB 2.0~~ | ~~back middle left usb-c~~
+1 | HS03 | USB 2.0 | back top left
+2 | HS04 | USB 2.0 | back top right
+3 | HS05 | USB 2.0 | back bottom left
+4 | HS06 | USB 2.0 | back bottom right
+5 | HS07 | USB 2.0 | case front right (via internal header)
+6 | HS08 | USB 2.0 | case front left (via internal header)
+7 | HS10 | Internal Header (USB 2.0) | used by BCM94360CD Bluetooth adapter 
+8 | SS01 | USB 3.0 | back middle right
+9 | SS02 | USB 3.0 | back middle left usb-c
+10 | SS03 | USB 3.0 | back top left
+11 | SS04 | USB 3.0 | back top right
 12 | SS05 | USB 3.0 | back bottom left
 13 | SS06 | USB 3.0 | back bottom right
 14 | SS07 | USB 3.0 | case front right (via internal header)
