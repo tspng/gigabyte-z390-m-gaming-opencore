@@ -11,7 +11,7 @@ Component | Model | Comments
 --------- | ----- | --------
 Mainboard | Gigabyte Z390 M Gaming, rev. 1.0                        | running Bios F9m 
 CPU       | Intel i7-8700k                                          | UHD630 iGPU for compute 
-GPU       | Gigabyte RX VEGA 56 GAMING OC 8G                        | works oob
+GPU       | Gigabyte AMD Radeon RX 6600 XT                         | works oob
 SSD       | WD Black SN750 Gaming 1TB M.2 NVMe                      | works oob
 Network   | Broadcom BCM94360CD Wi-Fi & Bluetooth 4.0 PCIe Adapter  | works oob
 Memory    | Corsair Vengeance LPX 32GB (2x16GB) 3200MHz             | 
@@ -29,11 +29,11 @@ First load **optimized defaults**, then adjust the following settings:
 3. Settings -> IO Port -> Above 4G Decoding: **Enabled**
 4. Settings -> IO Port -> USB Configuration -> XHCI Hand-off: **Enabled**
 5. Tweaker -> Extreme Memory Profile(X.M.P.): **Profile1**
-6. 
+
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.8.7`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.9.1`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
@@ -84,8 +84,18 @@ iGPU works by enabling internal graphics in bios and then using framebuffer `0x3
 
 Front and backside ports work with AppleALC.kext using `layout-id 20`.
 
+## Kexts
+
+- AppleALC.kext (https://github.com/acidanthera/AppleALC)
+- BlueToolFixup.kext (https://github.com/acidanthera/BrcmPatchRAM)
+- IntelMausi.kext (https://github.com/acidanthera/IntelMausi)
+- Lilu.kext (https://github.com/acidanthera/Lilu)
+- NVMeFix.kext (https://github.com/acidanthera/NVMeFix)
+- SMCProcessor.kext (https://github.com/acidanthera/VirtualSMC)
+- VirtualSMC.kext (https://github.com/acidanthera/VirtualSMC)
+- WhateverGreen.kext (https://github.com/acidanthera/WhateverGreen)
+- USBMap.kext ([EFI/OC/Kexts/USBMap.kext](EFI/OC/Kexts/USBMap.kext))
 
 ## Issues
 
-- [x] Wake from sleep via keyboard or mouse requires a second USB input to completely power on the hackintosh (for example to power on the display).
-Check [Keyboard Wake Issues](https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html) from the OpenCore Post-Install docs.
+None at the moment.
