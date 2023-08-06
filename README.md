@@ -1,6 +1,6 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Ventura version `13.5`
+Running macOS Ventura version `13.5`.
 
 ![about this Mac](img/about_this_mac.png)
 
@@ -24,12 +24,14 @@ This is the first bios version which lets you disable CFG-Lock.
 
 First load **optimized defaults**, then adjust the following settings:
 
-1. Boot -> CSM Support: **Disabled**
-2. Settings -> IO Port -> Internal Graphics: **Enabled**
-3. Settings -> IO Port -> Above 4G Decoding: **Enabled**
-4. Settings -> IO Port -> USB Configuration -> XHCI Hand-off: **Enabled**
-5. Tweaker -> Extreme Memory Profile(X.M.P.): **Profile1**
-
+1. Tweaker → Extreme Memory Profile(X.M.P.) → **Profile1**
+2. Settings → Super IO Configuration → Serial Port → **Disabled**
+3. Settings → IO Ports → Above 4G Decoding → **Enabled**
+4. Settings → IO Ports → USB Configuration → XHCI Hand-off → **Enabled**
+5. Settings → Miscellaneous → Software Guard Extensions(SGX) → **Disabled**
+6. Boot → Fast Boot → **Disabled**
+7. Boot → CSM Support → **Disabled**
+8. Boot → CFG Lock → **Disabled**
 
 ## OpenCore Installation Notes
 
