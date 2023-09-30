@@ -35,7 +35,7 @@ First load **optimized defaults**, then adjust the following settings:
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.9.3`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.9.5`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
