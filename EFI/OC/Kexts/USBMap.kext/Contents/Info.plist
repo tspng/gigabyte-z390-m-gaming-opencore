@@ -37,7 +37,7 @@
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
+			<string>AppleIntelCNLUSBXHCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBMuxEnabled</key>
@@ -50,21 +50,23 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						AQAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
+						<key>Comment</key>
+						<string>BM2</string>
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						AgAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS03</key>
 					<dict>
@@ -74,6 +76,8 @@
 						<data>
 						AwAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BTL2</string>
 					</dict>
 					<key>HS04</key>
 					<dict>
@@ -83,6 +87,8 @@
 						<data>
 						BAAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BTR2</string>
 					</dict>
 					<key>HS05</key>
 					<dict>
@@ -92,6 +98,8 @@
 						<data>
 						BQAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BBL2</string>
 					</dict>
 					<key>HS06</key>
 					<dict>
@@ -101,6 +109,8 @@
 						<data>
 						BgAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BBR2</string>
 					</dict>
 					<key>HS07</key>
 					<dict>
@@ -110,6 +120,8 @@
 						<data>
 						BwAAAA==
 						</data>
+						<key>Comment</key>
+						<string>FR2</string>
 					</dict>
 					<key>HS08</key>
 					<dict>
@@ -119,20 +131,22 @@
 						<data>
 						CAAAAA==
 						</data>
+						<key>Comment</key>
+						<string>FL2</string>
 					</dict>
 					<key>HS09</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						CQAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS10</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						CgAAAA==
@@ -140,57 +154,57 @@
 					</dict>
 					<key>HS11</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						CwAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS12</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						DAAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS13</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						DQAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS14</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						DgAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS15</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						DwAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>HS16</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						EAAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>SS01</key>
 					<dict>
@@ -200,6 +214,8 @@
 						<data>
 						EQAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BM3</string>
 					</dict>
 					<key>SS02</key>
 					<dict>
@@ -209,6 +225,8 @@
 						<data>
 						EgAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BMC3</string>
 					</dict>
 					<key>SS03</key>
 					<dict>
@@ -218,6 +236,8 @@
 						<data>
 						EwAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BTL3</string>
 					</dict>
 					<key>SS04</key>
 					<dict>
@@ -227,6 +247,8 @@
 						<data>
 						FAAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BTR3</string>
 					</dict>
 					<key>SS05</key>
 					<dict>
@@ -236,6 +258,8 @@
 						<data>
 						FQAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BBL3</string>
 					</dict>
 					<key>SS06</key>
 					<dict>
@@ -245,6 +269,8 @@
 						<data>
 						FgAAAA==
 						</data>
+						<key>Comment</key>
+						<string>BBR3</string>
 					</dict>
 					<key>SS07</key>
 					<dict>
@@ -254,6 +280,8 @@
 						<data>
 						FwAAAA==
 						</data>
+						<key>Comment</key>
+						<string>FR3</string>
 					</dict>
 					<key>SS08</key>
 					<dict>
@@ -263,24 +291,26 @@
 						<data>
 						GAAAAA==
 						</data>
+						<key>Comment</key>
+						<string>FL3</string>
 					</dict>
 					<key>SS09</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						GQAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 					<key>SS10</key>
 					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>#port</key>
 						<data>
 						GgAAAA==
 						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
 					</dict>
 				</dict>
 			</dict>
