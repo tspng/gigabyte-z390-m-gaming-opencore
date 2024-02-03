@@ -1,6 +1,6 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Ventura version `13.5`.
+Running macOS Ventura version `13.6`.
 
 ![about this Mac](img/about_this_mac.png)
 
@@ -24,18 +24,20 @@ This is the first bios version which lets you disable CFG-Lock.
 
 First load **optimized defaults**, then adjust the following settings:
 
-1. Tweaker → Extreme Memory Profile(X.M.P.) → **Profile1**
-2. Settings → Super IO Configuration → Serial Port → **Disabled**
-3. Settings → IO Ports → Above 4G Decoding → **Enabled**
-4. Settings → IO Ports → USB Configuration → XHCI Hand-off → **Enabled**
-5. Settings → Miscellaneous → Software Guard Extensions(SGX) → **Disabled**
-6. Boot → Fast Boot → **Disabled**
-7. Boot → CSM Support → **Disabled**
-8. Boot → CFG Lock → **Disabled**
+1. Tweaker → Extreme Memory Profile(X.M.P.): **Profile1**
+2. Settings → Super IO Configuration → Serial Port: **Disabled**
+3. Settings → IO Ports → Above 4G Decoding: **Enabled**
+4. Settings → IO Ports → Internal Graphics: **Enabled**
+5. Settings → IO Ports → USB Configuration → XHCI Hand-off: **Enabled**
+6. Settings → IO Ports → USB Configuration → Legacy USB Support: **Disabled**
+7. Settings → Miscellaneous → Software Guard Extensions(SGX): **Disabled**
+8. Boot → Fast Boot: **Disabled**
+9. Boot → CSM Support: **Disabled**
+10. Boot → CFG Lock: **Disabled**
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.9.5`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v0.9.7`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
