@@ -204,7 +204,7 @@
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
-			<false/>
+			<true/>
 			<key>EnableWriteUnprotector</key>
 			<false/>
 			<key>FixupAppleEfiImages</key>
@@ -218,7 +218,7 @@
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
-			<true/>
+			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>ProvideMaxSlide</key>
@@ -843,7 +843,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -851,13 +851,13 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>2147483714</integer>
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>0</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1007,7 +1007,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 agdpmod=pikera</string>
+				<string>-v keepsyms=1 debug=0x100 agdpmod=pikera slide=178</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
