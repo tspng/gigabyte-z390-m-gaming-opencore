@@ -1,17 +1,17 @@
 # OpenCore Gigabyte Z390 M Gaming Hackintosh Build
 
-Running macOS Ventura version `13.6`.
+Running macOS Ventura version `13.7`.
 
 ![about this Mac](img/about_this_mac.png)
 
 
 ## Hardware
 
-Component | Model | Comments
---------- | ----- | --------
+Component | Model                                                   | Comments
+--------- | ------------------------------------------------------- | -------------
 Mainboard | Gigabyte Z390 M Gaming, rev. 1.0                        | running Bios F9m 
 CPU       | Intel i7-8700k                                          | UHD630 iGPU for compute 
-GPU       | Gigabyte AMD Radeon RX 6600 XT                         | works oob
+GPU       | Gigabyte AMD Radeon RX 6600 XT                          | works oob
 SSD       | WD Black SN750 Gaming 1TB M.2 NVMe                      | works oob
 Network   | Broadcom BCM94360CD Wi-Fi & Bluetooth 4.0 PCIe Adapter  | works oob
 Memory    | Corsair Vengeance LPX 32GB (2x16GB) 3200MHz             | 
@@ -37,7 +37,7 @@ First load **optimized defaults**, then adjust the following settings:
 
 ## OpenCore Installation Notes
 
-Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v1.0.1`.
+Currently running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) `v1.0.4`.
 
 Basically, I just followed the official OpenCore [Coffe Lake Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html).
 
