@@ -1099,7 +1099,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 agdpmod=pikera slide=178</string>
+				<string>keepsyms=1 debug=0x100 agdpmod=pikera slide=178</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
